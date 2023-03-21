@@ -16,7 +16,7 @@
 		347209751BB808D1004DE6DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 347209731BB808D1004DE6DA /* LaunchScreen.storyboard */; };
 		347209801BB808D1004DE6DA /* SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3472097F1BB808D1004DE6DA /* SampleTests.swift */; };
 		3472098E1BB80A4F004DE6DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3472098D1BB80A4F004DE6DA /* Foundation.framework */; };
-		D26C57AE27DE9373007BEBA6 /* PhoneNumberKit in Frameworks */ = {isa = PBXBuildFile; productRef = D26C57AD27DE9373007BEBA6 /* PhoneNumberKit */; };
+		37C9392B28BDF0C2009C1021 /* PhoneNumberKit in Frameworks */ = {isa = PBXBuildFile; productRef = 37C9392A28BDF0C2009C1021 /* PhoneNumberKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,7 @@
 		3472097F1BB808D1004DE6DA /* SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTests.swift; sourceTree = "<group>"; };
 		347209811BB808D1004DE6DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3472098D1BB80A4F004DE6DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		D2D4ADA327D7FF4F00667722 /* PhoneNumberKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = PhoneNumberKit; path = ../..; sourceTree = "<group>"; };
+		37C9392828BDF0AD009C1021 /* PhoneNumberKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = PhoneNumberKit; path = ../..; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				344D875A1BDED6A600487684 /* ContactsUI.framework in Frameworks */,
-				D26C57AE27DE9373007BEBA6 /* PhoneNumberKit in Frameworks */,
+				37C9392B28BDF0C2009C1021 /* PhoneNumberKit in Frameworks */,
 				344D87571BDED6A200487684 /* Contacts.framework in Frameworks */,
 				3472098E1BB80A4F004DE6DA /* Foundation.framework in Frameworks */,
 			);
@@ -84,11 +84,11 @@
 		3472095E1BB808D1004DE6DA = {
 			isa = PBXGroup;
 			children = (
-				D2D4ADA327D7FF4F00667722 /* PhoneNumberKit */,
+				37C9392728BDF0AD009C1021 /* Packages */,
 				347209691BB808D1004DE6DA /* Sample */,
 				3472097E1BB808D1004DE6DA /* SampleTests */,
 				347209681BB808D1004DE6DA /* Products */,
-				D2D4ADA427D7FF6100667722 /* Frameworks */,
+				37C9392928BDF0C2009C1021 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,7 +126,15 @@
 			path = SampleTests;
 			sourceTree = "<group>";
 		};
-		D2D4ADA427D7FF6100667722 /* Frameworks */ = {
+		37C9392728BDF0AD009C1021 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				37C9392828BDF0AD009C1021 /* PhoneNumberKit */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		37C9392928BDF0C2009C1021 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -151,7 +159,7 @@
 			);
 			name = Sample;
 			packageProductDependencies = (
-				D26C57AD27DE9373007BEBA6 /* PhoneNumberKit */,
+				37C9392A28BDF0C2009C1021 /* PhoneNumberKit */,
 			);
 			productName = Sample;
 			productReference = 347209671BB808D1004DE6DA /* Sample.app */;
@@ -505,7 +513,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D26C57AD27DE9373007BEBA6 /* PhoneNumberKit */ = {
+		37C9392A28BDF0C2009C1021 /* PhoneNumberKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = PhoneNumberKit;
 		};

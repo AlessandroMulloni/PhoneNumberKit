@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version: 5.4
 import PackageDescription
 
 let package = Package(
@@ -16,9 +16,8 @@ let package = Package(
                 path: "PhoneNumberKit",
                 exclude: ["Resources/Original",
                           "Resources/README.md",
-                          "Resources/update.sh",
-                          "Info.plist", 
-                          "Bundle+Resources.swift"],
+                          "Resources/update_metadata.sh",
+                          "Info.plist"],
                 resources: [
                     .process("Resources/PhoneNumberMetadata.json")
                 ]),
